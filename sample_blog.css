@@ -1,0 +1,89 @@
+html, header, .main, footer {
+    width: 920px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+body {
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    background-color: #2e2e2e;
+    margin-bottom: 30px;
+}
+li {
+    padding: 20px;
+    color: #00ff00
+}
+li a {
+    text-decoration: none;
+    display: block;
+}
+.main {
+    display: flex;
+    min-width: 920px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.title {
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.title a, .new a {
+    text-decoration: none;
+}
+.title p {
+    margin-top: 0;
+    font-size: 14px;
+}
+h5 {
+    margin: 0;
+}
+.pic {
+    height: 200px;
+    width: 200px;
+    padding-right: 20px;
+}
+.sentense {
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+h3 {
+    margin: 0;
+    font-size: 13px;
+}
+h2 {
+    font-size: 20px;
+}
+.newarticle {
+    border-bottom: solid 1px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.new {
+    width: 220px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.new p {
+    margin: 0;
+}
+.pic2 {
+    height: 50px;
+    width: 50px;
+    padding: 0 20px;
+}
+footer {
+    border-top: solid 1px;
+}
+footer p {
+    text-align: center;
+}
